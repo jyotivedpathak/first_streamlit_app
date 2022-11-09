@@ -34,7 +34,7 @@ streamlit.dataframe(fruits_to_show)
   #else:
   
 #Create a repeatable code block (called a function)
-def get_fruityvice_data(this_fruit_choice)
+def get_fruityvice_data(this_fruit_choice):
     #import requests
     fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ fruit_choice)
     #Write the data to the screen
