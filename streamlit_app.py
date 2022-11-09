@@ -81,7 +81,7 @@ if streamlit.button('Get Fruit Load List'):
   streamlit.dataframe(my_data_rows)
 
 
-
+streamlit.stop();
 #challenge lab
 add_my_fruit = streamlit.text_input('What fruit would you like information about?','jackfruit')
 streamlit.write('Thanks for adding jackfruit', add_my_fruit)
